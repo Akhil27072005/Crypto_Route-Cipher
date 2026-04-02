@@ -50,6 +50,12 @@ g++ -std=c++17 -O2 route_cipher.cpp -o route_cipher.exe
 ./route_cipher.exe
 ```
 
+To feed the sample menu inputs from `test_script.txt` (PowerShell, from this folder):
+
+```powershell
+Get-Content .\test_script.txt | .\route_cipher.exe
+```
+
 ---
 
 ## Worked example 1
